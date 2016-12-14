@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+  - "6"
+  - "6.1"
+  - "5.11"
+  - "0.6"
+  - "iojs"
+before_install:
+  - sudo apt-get install postgresql-9.4
+env:
+  - DB_USER=testuser
+  - DB_PASS=123456
+  - DB_HOST=localhost:5432
+install: npm i
+script: node ./specs/start.js
