@@ -4,8 +4,6 @@ node_js:
 before_install:
   - sudo apt-get install postgresql-9.4
 env:
-  - DB_USER=testuser
-  - DB_PASS=123456
-  - DB_HOST=localhost:5432
+  - DB_USER=testuser DB_PASS=123456 DB_HOST=localhost:5432
 install: npm i
 script: node ./specs/start.js
