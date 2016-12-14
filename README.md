@@ -1,6 +1,5 @@
 # Sample NodeJS Project for GitLab Runner  
-[![Build Status](https://img.shields.io/travis/deployd/deployd.svg?style=flat-square)](https://travis-ci.org/hoangtrongphuc/DemoTravisCI)
-
+[![Build Status](https://travis-ci.org/hoangtrongphuc/DemoTravisCI.svg?branch=master)](https://travis-ci.org/hoangtrongphuc/DemoTravisCI)
 This is NodeJS project that accompanies my guest
 [blog post](https://about.gitlab.com/2016/03/01/gitlab-runner-with-docker/)
 on Gitlab.com.
